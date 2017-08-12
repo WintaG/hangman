@@ -1,0 +1,28 @@
+.page{
+  background-color: #4aaaa5;
+  text-align: center;
+  color: white;
+}
+.box{
+  background-color: grey;
+  width: 800px;
+  height: 500px;
+  text-indent: 40px;
+  margin: 60px;
+  color: white;
+  border: dashed;
+  background-color: black;
+
+}
+#pictureBox{
+  width: 250px;
+  height: 175px;
+  border: dashed;
+  float: right;
+  margin:  -220px 60px;
+  color: white;
+
+}
+.container{
+  background-color: black;
+}

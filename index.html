@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+
+<html lang='en-us'>
+
+  <head>
+
+    <meta charset='UTF-8'>
+    <title></title>
+    <link rel="stylesheet" type"text/css" href="assets/css/style.css"/>
+
+  </head>
+
+  <body>
+    <div class='container'>
+      <div class='page'>
+        <div class='container'>
+          <h1>HANGMAN GAME</h1>
+              <img src="assets/images/80's.jpeg" alt="pic" width="100" height="100">
+          <h2> SINGERS</h2>
+          <small>press any letter to begin...</small>
+        </div>
+      </div>
+ <div class='box'>
+   <br>
+   <br>
+      <div class='row'>
+        <div class='col-lg-12'>
+          <div class='panel panel-default'>
+            <div class='panel-heading'>
+              <h3 class='panel-title'><strong>Word to Guess</strong> <br></h3>
+            </div>
+            <div class='panel-body'>
+              <h3 id='word-blanks'>_ _ _ _ _ _ _ _ _ </h3><br>
+            </div>
+          </div>
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+              <strong>Wrong Guesses:</strong> <span id='wrong-guesses'></span>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+              <strong>Guesses Left: </strong><span id='guesses-left'>9</span>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+              <strong>Wins: </strong> <span id='win-counter'>0</span>
+              <br>
+              <br>
+            </div>
+          </div>
+          <div class='panel panel-default'>
+            <div class='panel-body'>
+              <strong>Losses: </strong> <span id='loss-counter'>0</span>
+            </div>
+            <div id='pictureBox'>
+             <div id="player"></div>
+             <!-- <script>
+      var tag = document.createElement('script');
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName('script')[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      // 3. This function creates an <iframe> (and YouTube player)
+      //    after the API code downloads.
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player('player', {
+          height: '50',
+          width: '40',
+          videoId: 'M7lc1UVf-VE',
+          events: {
+            'onReady': onPlayerReady,
+            'onStateChange': onPlayerStateChange
+          }
+        });
+      }
+
+      // 4. The API will call this function when the video player is ready.
+      function onPlayerReady(event) {
+        event.target.playVideo();
+      }
+
+      // 5. The API calls this function when the player's state changes.
+      //    The function indicates that when playing a video (state=1),
+      //    the player should play for six seconds and then stop.
+      var done = false;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          setTimeout(stopVideo, 6000);
+          done = true;
+        }
+      } -->
+      <!-- function stopVideo() {
+        player.stopVideo();
+      }
+    </script> -->
+            </div>
+        </div>
+      </div>
+    </div>
+   </div>
+  </div>
+    <script src='assets/java script/game.js'></script>
+
+  </body>
+
+</html>
